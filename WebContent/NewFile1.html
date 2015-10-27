@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript">
+function sayHello()
+{
+document.write ("Hello there!");
+}
+function move() {
+	var a=document.getElementById('mov');
+	if(a==null){
+		alert("hti sis");
+	}
+}
+</script>
+</head>
+<body>
+
+<input type="text" onmousemove="move()" id="mov">
+
+<input type="button" onmousemove="sayHello()" value="Say Hello">
+
+</body>
+</html>

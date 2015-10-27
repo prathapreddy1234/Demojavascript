@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+
+function name() {
+	var a=document.getElementById('name');
+	if(a==null){
+		alert("field a is required");
+	}else{
+		return false;
+	}}	
+	function password() {
+		var b=document.getElementById('password');
+		if(b==null)
+		{
+			alert("field b is required");
+		}
+		else{
+			return false;
+			}return true;
+	}
+
+
+
+</script>
+</head>
+<body>
+UserName<input type="text" name="user" id="name"><br>
+Password<input type="text" name="password" id="password"><br>
+
+<input type="submit" value="submit" onclick="name(),password()" >
+
+</body>
+</html>
